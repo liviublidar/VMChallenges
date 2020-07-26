@@ -1,6 +1,7 @@
-<H1>Just some programming challenges</H1>
+# Just some programming challenges
 
-1) MOVIE SORTER: from hackajob.co
+#### 1) MOVIE SORTER: from hackajob.co
+```
 Mr. K. I. has a very big movie collection. He has organized his collection in a big stack.
 Whenever he wants to watch one of the movies, he locates the movie in this stack and removes it carefully, ensuring that the stack doesn't fall over. After he finishes watching the movie, he places it at the top.
 Since the stack of movies is so big, he needs to keep track of the position of each movie.
@@ -12,13 +13,9 @@ After the movie is watched it is placed at the top of the stack.
 INPUT
 int n
 ^^ the number of movies Mr. K. I. has in the stack
-
 int m
 ^^ the number of movies Mr. K. I. wants to watch
-
-int[] movies
-^^ an array with m integers a1 . . . am (1 <= ai <= n) representing the identification numbers of movies that Mr. K. I. wants to watch
-
+int[] movies -> an array with m integers a1 . . . am (1 <= ai <= n) representing the identification numbers of movies that Mr. K. I. wants to watch
 For simplicity, we assume assume that the initial stack contains the movies with identification numbers 1, 2, . . . , n in increasing order, where the movie box with label 1 is the top-most box.
 
 OUTPUT
@@ -44,5 +41,4 @@ Input
 5
 3
 [4,4,5]
-
-
+```
