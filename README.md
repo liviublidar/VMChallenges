@@ -1,4 +1,4 @@
-<H1>Just some programming challenges<H1>
+<H1>Just some programming challenges</H1>
 
 1) MOVIE SORTER: from hackajob.co
 Mr. K. I. has a very big movie collection. He has organized his collection in a big stack.
